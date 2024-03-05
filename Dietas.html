@@ -27,25 +27,25 @@
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
     }
-    #bulking{
+    #btn-cutting{
         position: absolute;
-        background-color: #45687E;
-        display: flex;
-        flex-direction: column;
-        padding: 5px;
-        top: 25%;
-        left:15%;
-        border-radius: 15px;
-    }
-    #cutting{
-        position: absolute;
-        background-color: #45687E;
-        display: flex;
-        flex-direction: column;
+        background-color: #3C927D;
+        color: white;
         padding: 5px;
         top: 25%;
         right:8%;
         border-radius: 15px;
+        border-color: #071625;
+    }
+    #btn-bulking{
+        position: absolute;
+        background-color: #3C927D;
+        color: #fff;
+        padding: 5px;
+        top: 25%;
+        left:15%;
+        border-radius: 15px;
+        border-color: #071625;
     }
     </style>
 </head>
@@ -57,15 +57,23 @@
                 <h4>Q' d'agua diária</h4>
             </div>
 
-            <div id="bulking">
+            <div>
+                <a href="C:\Users\Matheus\Documents\Program\HTML CSS\Estudos\independentes\Praticas-FrontEnd\Calculadora-de-TMB\Refbulking.html">
+                <button id="btn-bulking">
                 <img width="500px"  src="https://blog.sardinhaevolution.com.br/wp-content/uploads/2017/11/142414-bulking-sujo-e-bulking-limpo-quais-as-diferencas.jpg">
-                <h4>Bulking</h4>
+                <h3><strong>Bulking</strong></h3>
                 <p>O bulking é a primeira fase do processo de hipertrofia<br>que consiste no aumento de 10 a 20% no consumo de calorias,<br> para facilitar o ganho de peso e massa muscular.<br> Este processo é praticado principalmente por fisiculturistas<br> e atletas de alta performance.</p>
+                </button>
+                </a>
             </div>
-            <div id="cutting">
+            <div>
+                <a href="C:\Users\Matheus\Documents\Program\HTML CSS\Estudos\independentes\Praticas-FrontEnd\Calculadora-de-TMB\Refcutting.html">
+                <button id="btn-cutting">
                 <img width="450px" src="https://www.dicasdetreino.com.br/wp-content/uploads/2018/08/Cutting-na-Muscula%C3%A7%C3%A3o-O-que-%C3%A9-o-Bulking-como-funciona-e-como-fazer.jpg">
-                <h4>Cutting</h4>
+                <h3><strong>Cutting</strong></h3>
                 <p>O cutting é um processo que tem como objetivo perder gordura<br> sem que haja grande perda de massa muscular<br> para que dessa forma seja possível ter maior <br>definição dos músculos.</p>
+                </button>
+                </a>
             </div>
     </div>
 </body>
