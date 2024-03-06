@@ -5,14 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Refeições</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         .fundo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: #071625;
+            height: 100vh;
+            color: #fff;    
+        }
+        #lista{
+            background-color: #3C927D; 
+            position: absolute;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 5px;
+            padding-bottom: 20px;
+            border-radius: 10px;
+        }
+        #omelete{
+            background-color: #327a68;
+            position: relative;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
     <div class="fundo">
-
+        <div id="lista">
+            <h1>Lista de refeições para bulking</h1>
+            <div id="omelete">
+                <h2>Omelete de vegetais e queijo</h2>
+            </div>
+        </div>
     </div>
 </body>
 </html>
